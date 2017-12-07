@@ -6,7 +6,7 @@ properties([
 pipelineTriggers([
         upstream(
       threshold: 'SUCCESS',
-      upstreamProjects: 'https://github.com/Organization6/org3.git'
+      upstreamProjects: 'https://github.com/Organization6/org.git'
     )
     ])
     ])
